@@ -9,42 +9,30 @@ body {
 
 .main_form {
     position: absolute;
-
     left: calc(50% - 400px);
-
     width: 800px;
     padding: 90px 70px;
     margin: 90px 0px 90px 0px;
-
     background-color: #fff;
-
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-
     -webkit-box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.7);
     -moz-box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.7);
     box-shadow: 20px 20px 70px -30px rgba(0,0,0,0.7);
-
 }
-
 
 .main_form__image {
     position: absolute;
-
     top: -55px;
     right: calc(50% - 100px/2);
-
     width: 100px;
     height: 100px;
-
     border: 2px solid #dedede;
-
     background-color: #fff;
     background-image: url("images/letter.png");
     background-position: center;
     background-repeat: no-repeat;
-
     -webkit-border-radius: 100px;
     -moz-border-radius: 100%;
     border-radius: 100%;
@@ -55,16 +43,12 @@ body {
     font-size: 30px;
 }
 
-
 div > input, textarea {
     padding: 20px;
-
     border: 1px solid #dedede;
-
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-
     outline: none;
     margin-top: 30px;
 }
@@ -72,7 +56,6 @@ div > input, textarea {
 input:focus, textarea:focus {
     border-color: #ff6347;
 }
-
 
 .input_form__name {
     margin-right: 20px;
@@ -83,7 +66,6 @@ input:focus, textarea:focus {
     height: 60px;
     font-size: 20px;
 }
-
 
 textarea {
     width: 100%;
@@ -97,20 +79,15 @@ textarea {
 
 .input_form__submit_button {
     padding: 0 34px; 
-
     height: 52px;
-
     font-size: 20px;
     color: #fff;
-
     background-color: #fc4d5e;
-
     cursor: pointer;
 }
-
 
 .input_form__submit_button:focus,
 .input_form__submit_button:active,
 .input_form__submit_button:hover{
-    background-color: #333333;
+    background-color: #333;
 }
